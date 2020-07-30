@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+
+  lcrabbitmq:
+    image: rabbitmq
+    container_name: lcrabbitmq
+    restart: always
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    environment:
+      RABBITMQ_DEFAULT_USER: LcQueueUser
+      RABBITMQ_DEFAULT_PASS: LcQueueUser00
+      RABBITMQ_DEFAULT_VHOST: dev
+
