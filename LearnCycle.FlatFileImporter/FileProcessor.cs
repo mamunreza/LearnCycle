@@ -40,5 +40,10 @@ namespace LearnCycle.FlatFileImporter
                 sw.WriteLine(line);
             }
         }
+
+        public bool ProcessFromBlob()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
