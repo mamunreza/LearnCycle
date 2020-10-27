@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiverConsole", "Receiver
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{DA7A21D8-9E7C-4594-8F9A-692A894276B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement", "CustomerManagement\CustomerManagement.csproj", "{9196EE0D-9F72-489F-9475-D84C9467EA71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerManagement", "CustomerManagement\CustomerManagement.csproj", "{9196EE0D-9F72-489F-9475-D84C9467EA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSenderConsole", "EmailSender.Console\EmailSenderConsole.csproj", "{191C28CB-33DC-4470-924F-7C9E9C9CB163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9196EE0D-9F72-489F-9475-D84C9467EA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9196EE0D-9F72-489F-9475-D84C9467EA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9196EE0D-9F72-489F-9475-D84C9467EA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191C28CB-33DC-4470-924F-7C9E9C9CB163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191C28CB-33DC-4470-924F-7C9E9C9CB163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191C28CB-33DC-4470-924F-7C9E9C9CB163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191C28CB-33DC-4470-924F-7C9E9C9CB163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
