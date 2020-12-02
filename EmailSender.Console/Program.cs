@@ -17,7 +17,7 @@ namespace EmailSenderConsole
 
         static async Task Execute()
         {
-            var apiKey = @"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";
+            var apiKey = @"###";
             var client = new SendGridClient(apiKey);
             var from = new EmailAddress("mamunrezadev@gmail.com", "Ant");
             var subject = "Sending with SendGrid is Fun";
